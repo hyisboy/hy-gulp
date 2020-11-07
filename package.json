@@ -1,0 +1,61 @@
+{
+  "name": "npm-ydsad-duasdi-dsad",
+  "version": "0.1.0",
+  "description": "Awesome node module",
+  "keywords": [
+    "npm-ydsad-duasdi-pages"
+  ],
+  "homepage": "https://github.com/hy/hycli-pages#readme",
+  "bugs": {
+    "url": "https://github.com/hy/hycli-pages/issues"
+  },
+  "license": "MIT",
+  "author": "hy_nanshan",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "main": "lib/index.js",
+  "bin": {
+    "hycli": "./bin/hycli-pages.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hy/hycli-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava",
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "develop": "gulp develop"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "browser-sync": "^2.26.13",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0"
+  },
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
